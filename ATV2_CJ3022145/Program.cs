@@ -64,16 +64,57 @@ float peso = float.Parse(Console.ReadLine());
 float imc;
 imc = peso / (altura * altura);
 Console.WriteLine("O seu IMC é: " + imc.ToString());
-*/
+
+
 
 //Atividade 4 - Lista
-Console.WriteLine("Digite o primeiro peso: ");
+Console.WriteLine("Digite a primeira nota: ");
+ float nota1 = float.Parse(Console.ReadLine());
+Console.WriteLine("Digite o peso da primeira nota: ");
 float peso1 = float.Parse(Console.ReadLine());
-Console.WriteLine("Digite o segundo peso: ");
+Console.WriteLine("Digite a segunda nota: ");
+float nota2 = float.Parse(Console.ReadLine());
+Console.WriteLine("Digite o peso da segunda nota: ");
 float peso2 = float.Parse(Console.ReadLine());
-Console.WriteLine("Digite o terceiro peso ");
+Console.WriteLine("Digite a terceira nota: ");
+float nota3 = float.Parse(Console.ReadLine());
+Console.WriteLine("Digite o peso da terceira nota: ");
 float peso3 = float.Parse(Console.ReadLine());
 float total;
 
-total = (peso1 + peso2 + peso3 / 3);
-Console.WriteLine("A média ponderada dos pesos é: " + total.ToString());
+total = (nota1 * peso1 + nota2 * peso2 + nota3 * peso3) / (peso1 + peso2 + peso3);
+Console.WriteLine("A média poderada dos pesos é: " + total.ToString());
+
+//Atividade 5 - Lista (Fórmula da velocidade)
+Console.WriteLine("Digite a distância percorrida: ");
+float distância = float.Parse(Console.ReadLine());
+Console.WriteLine("Digite o tempo que foi gasto na ação em segundos: ");
+float tempo = float.Parse(Console.ReadLine());
+float velocidade;
+
+velocidade = (distância / tempo);
+Console.WriteLine("A velocidade em a ocorreu a ação foi de: " + velocidade.ToString());
+*/
+//Atividade 6 -  Lista
+Console.WriteLine("Digite seu salário: ");
+float salário = int.Parse(Console.ReadLine());
+float aumento = salário * 0.25f;
+float total = salário + aumento;
+Console.WriteLine("O salário pós aumento é " + total.ToString("0.00"));
+
+//Atividade 7 - Lista 
+Console.WriteLine("Digite o valor a ser convertido em reais: ");
+double real = double.Parse(Console.ReadLine());
+double valor_dolar = 4.97;
+double dolar;
+
+dolar = real / valor_dolar;
+Console.WriteLine("O valor em real convertido para dólar é: " + dolar.ToString());
+
+//Atividade 8 - Lista
+Console.WriteLine("Digite o número desejado: ");
+int numero = int.Parse(Console.ReadLine());
+numero = (numero * 3 + 1) + (numero * 2 - 1);
+Console.WriteLine("A soma do sucessor do triplo com o antecessor do dobro é: " + numero.ToString());
+
+//Atividade 9 - Lista
