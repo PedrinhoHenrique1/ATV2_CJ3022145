@@ -1,4 +1,4 @@
-﻿/*Console.WriteLine("Atividade 1");
+﻿Console.WriteLine("Atividade 1");
 //Atividade 1 - Sala
 float investimento = 1000;
 float variação_dia1 = -3.4f;
@@ -30,8 +30,10 @@ int numero = int.Parse(Console.ReadLine());
 numero = (numero * 3 + 1) + (numero * 2 - 1);
 Console.WriteLine("A soma do sucessor do triplo com o antecessor do dobro é: " + numero.ToString());
 
+Console.WriteLine("");
+
 //Atividade 1 - Lista
-using System.Runtime.InteropServices;
+
 
 Console.WriteLine("Digite o seu valor em metros: ");
 double quantidade = double.Parse(Console.ReadLine());
@@ -69,7 +71,7 @@ Console.WriteLine("O seu IMC é: " + imc.ToString());
 
 //Atividade 4 - Lista
 Console.WriteLine("Digite a primeira nota: ");
- float nota1 = float.Parse(Console.ReadLine());
+float nota1 = float.Parse(Console.ReadLine());
 Console.WriteLine("Digite o peso da primeira nota: ");
 float peso1 = float.Parse(Console.ReadLine());
 Console.WriteLine("Digite a segunda nota: ");
@@ -137,7 +139,7 @@ Console.WriteLine("O valor atual dos investimentos de Marquesito é R$" + valor_
 
 //Atividade 11 - Lista
 Console.WriteLine("Digite o número desejado: ");
-float num =  float.Parse(Console.ReadLine());
+float num = float.Parse(Console.ReadLine());
 float quadrado;
 float cubo;
 
@@ -145,12 +147,14 @@ quadrado = (num * num);
 cubo = (num * num * num);
 
 Console.WriteLine("O número ao quadrado é: {0} \n O resultado ao cubo é: {1}", quadrado, cubo);
-*/
-//Atividade 12 - Lista 
 
+//Atividade 12 - Lista
+Console.WriteLine("Digite sua altura: ");
+float altura = float.Parse(Console.ReadLine());
+Console.WriteLine("Digite seu gênero: (Homem ou Mulher).")
+char gen = char.Parse(Console.ReadLine());
 
-//Atividade 13 - Lista
-Console.WriteLine("O github é quase como uma rede social dev, utilizado para compartilhar ideias e projetos, podendo até ser utilizado para pegar projetos prontos e apeerfeiçoa-los, já o git é um programa param armazenar arquivos sendo possível ver todas as atualizações mais recentes e também passadas do projetos.");
+if (gen == "Homem")
 
-
-
+    //Atividade 13 - Lista
+    Console.WriteLine("O github é quase como uma rede social dev, utilizado para compartilhar ideias e projetos, podendo até ser utilizado para pegar projetos prontos e apeerfeiçoa-los, já o git é um programa param armazenar arquivos sendo possível ver todas as atualizações mais recentes e também passadas do projetos. \n Alguns comandos do git são: git config, git init, git clone, git add, git commit, git branch, git checkout, git remote, git push, git fetch);
